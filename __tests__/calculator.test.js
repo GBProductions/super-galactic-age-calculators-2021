@@ -5,7 +5,7 @@ describe("Calculator", () => {
 
 
     beforeEach(() => {
-        calculator = new Calculator (100);
+
     });
 
     test('should show how beforeEach() works', () => {
@@ -13,6 +13,36 @@ describe("Calculator", () => {
     });
 
     test('should return users age in Earth years', () => {
+        calculator = new Calculator (100);
         expect(calculator.earthYear).toEqual(100);
-    })
+    });
+
+    test('should return users age in Mercury years', () => {
+        let planetYear = "Mercury";
+        expect(calculator.planetAge(planetYear)).toEqual();
+    });
+
+    // test('should return users age in Mercury years', () => {
+    //     expect().toEqual();
+    // });
+
+    // test('should return users age in Mercury years', () => {
+    //     expect().toEqual();
+    // });
+
+    // test('should return users age in Mercury years', () => {
+    //     expect().toEqual();
+    // });
+
+    // test('should return users age in Mercury years', () => {
+    //     expect().toEqual();
+    // });
+
+    // test('should return users age in Mercury years', () => {
+    //     expect().toEqual();
+    // });
+
+    // test('should return users age in Mercury years', () => {
+    //     expect().toEqual();
+    // });
 });
