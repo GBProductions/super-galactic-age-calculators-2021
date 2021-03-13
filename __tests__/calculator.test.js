@@ -19,7 +19,7 @@ describe("Calculator", () => {
 
     test('should return users age in Mercury years', () => {
         let planetYear = "Mercury";
-        expect(calculator.planetAge(planetYear)).toEqual();
+        expect(calculator.planetAge(planetYear)).toEqual(42);
     });
 
     // test('should return users age in Mercury years', () => {
