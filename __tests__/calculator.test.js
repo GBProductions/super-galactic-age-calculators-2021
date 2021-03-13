@@ -22,9 +22,10 @@ describe("Calculator", () => {
         expect(calculator.planetAge(planetYear)).toEqual(42);
     });
 
-    // test('should return users age in Mercury years', () => {
-    //     expect().toEqual();
-    // });
+    test('should return users age in Venus years', () => {
+        let planetYear = "Venus";
+        expect(calculator.planetAge(planetYear)).toEqual();
+    });
 
     // test('should return users age in Mercury years', () => {
     //     expect().toEqual();
