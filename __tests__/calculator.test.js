@@ -13,6 +13,6 @@ describe("Calculator", () => {
     });
 
     test('should return users age in Earth years', () => {
-        expect(calculator.earthYear).toEqual();
+        expect(calculator.earthYear).toEqual(100);
     })
 });
