@@ -5,15 +5,14 @@ describe("Calculator", () => {
 
 
     beforeEach(() => {
-        calculator = new Calculator ("test");
+        calculator = new Calculator (100);
     });
 
     test('should show how beforeEach() works', () => {
         console.log(calculator);
     });
 
-    test('should return the Class Calculator', () => {
-        let calculator = new Calculator ("test")
-        expect(calculator.test).toEqual("test");
-    });
+    test('should return users age in Earth years', () => {
+        expect(calculator.earthYear).toEqual();
+    })
 });
