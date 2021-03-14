@@ -39,7 +39,7 @@ describe("Calculator", () => {
 
     test('should return users life left on Jupiter', () => {
         let calculator = new Calculator (100, "Jupiter", 200);
-        expect(calculator.lifeLeft()).toEqual();
+        expect(calculator.lifeLeft()).toEqual(1186);
     });
 
     
