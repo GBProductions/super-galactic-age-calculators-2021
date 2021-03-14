@@ -27,10 +27,10 @@ describe("Calculator", () => {
         expect(calculator.lifeLeft()).toEqual(42);
     });
 
-    // test('should return users life left on Venus', () => {
-    //     let calculator = new Calculator (100, "Venus", 200);
-    //     expect(calculator.planetAge()).toEqual(42);
-    // });
+    test('should return users life left on Venus', () => {
+        let calculator = new Calculator (100, "Venus", 200);
+        expect(calculator.lifeLeft()).toEqual();
+    });
 
     
 });
