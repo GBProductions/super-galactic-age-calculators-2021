@@ -22,8 +22,10 @@ describe("Calculator", () => {
         expect(calculator.planetAge()).toEqual(188);
     });
 
-    test('should return users age in Jupiter years', () => {
-        let calculator = new Calculator (100, "Jupiter");
-        expect(calculator.planetAge()).toEqual(1186);
+    test('should return users life left on Mercury', () => {
+        let calculator = new Calculator (100, "Mercury", 200);
+        expect(calculator.planetAge()).toEqual();
     });
+
+    
 });
