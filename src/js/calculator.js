@@ -10,5 +10,7 @@ Calculator.prototype.planetAge = function() {
         return (this.earthYear * 0.42) 
     }   else if (this.planet === "Venus") {
         return (this.earthYear * 0.62)
+    }   else if (this.planet === "Mars") {
+        return (this.earthYear * 1.88)
     }
 }

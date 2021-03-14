@@ -17,24 +17,8 @@ describe("Calculator", () => {
         expect(calculator.planetAge()).toEqual(62);
     });
 
-
-    // test('should return users age in Mercury years', () => {
-    //     expect().toEqual();
-    // });
-
-    // test('should return users age in Mercury years', () => {
-    //     expect().toEqual();
-    // });
-
-    // test('should return users age in Mercury years', () => {
-    //     expect().toEqual();
-    // });
-
-    // test('should return users age in Mercury years', () => {
-    //     expect().toEqual();
-    // });
-
-    // test('should return users age in Mercury years', () => {
-    //     expect().toEqual();
-    // });
+    test('should return users age in Mars years', () => {
+        let calculator = new Calculator (100, "Mars");
+        expect(calculator.planetAge()).toEqual();
+    });
 });
