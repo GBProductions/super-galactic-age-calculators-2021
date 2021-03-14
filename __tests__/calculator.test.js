@@ -21,4 +21,9 @@ describe("Calculator", () => {
         let calculator = new Calculator (100, "Mars");
         expect(calculator.planetAge()).toEqual(188);
     });
+
+    test('should return users age in Jupiter years', () => {
+        let calculator = new Calculator (100, "Jupiter");
+        expect(calculator.planetAge()).toEqual(1186);
+    });
 });

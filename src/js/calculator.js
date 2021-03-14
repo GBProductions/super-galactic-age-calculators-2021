@@ -12,5 +12,7 @@ Calculator.prototype.planetAge = function() {
         return (this.earthYear * 0.62)
     }   else if (this.planet === "Mars") {
         return (this.earthYear * 1.88)
+    }   else if (this.planet === "Jupiter") {
+        return (this.earthYear * 11.86)
     }
 }
