@@ -25,7 +25,7 @@ Calculator.prototype.lifeLeft = function() {
         return ((this.avgEarthYear - this.earthYear) * 0.62)
     }   else if (this.planet === "Mars") {
         return ((this.avgEarthYear - this.earthYear) * 1.88)
-    // }   else if (this.planet === "Jupiter") {
-    //     return (this.earthYear * 11.86)
-    // }
-}}
+    }   else if (this.planet === "Jupiter") {
+        return ((this.avgEarthYear - this.earthYear) * 1.88)
+    }
+}
