@@ -19,14 +19,18 @@ Calculator.prototype.planetAge = function() {
 }
 
 Calculator.prototype.lifeLeft = function() {
+
     if (this.planet === "Mercury") {
-        let timeLeft = ((this.avgEarthYear - this.earthYear) * 0.42)   
+        let timePast = ((this.avgEarthYear - this.earthYear) * 0.42); 
+        return timePast 
     }   else if (this.planet === "Venus") {
-        let timeLeft = ((this.avgEarthYear - this.earthYear) * 0.62)
+        let timePast = ((this.avgEarthYear - this.earthYear) * 0.62)
+        return timePast
     }   else if (this.planet === "Mars") {
-        let timeLeft = ((this.avgEarthYear - this.earthYear) * 1.88)
+        let timePast = ((this.avgEarthYear - this.earthYear) * 1.88)
+        return timePast
     }   else if (this.planet === "Jupiter") {
-        let timeLeft = ((this.avgEarthYear - this.earthYear) * 1186)
-    }
-    return timeLeft
+        let timePast = ((this.avgEarthYear - this.earthYear) * 11.86)
+        return timePast
+    }   
 }

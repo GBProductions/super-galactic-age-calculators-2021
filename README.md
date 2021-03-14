@@ -24,6 +24,7 @@ _This program will allow the user to take their age on Earth and convert it to t
 ## Known Bugs
 
 _There are no known bugs currently._
+_Missing function to return years lived past life expectancy._
 
 ## Support and contact details
 
