@@ -1,8 +1,9 @@
 # _Super Galactic Age Calculator_
 
 #### _Calculating Earth age on other planets in the solar system._ 
-#### _March 12th 2021_
+#### _Original Publish Date: March 12th 2021_
 ##### _Last edited March 13th 2021_
+##### _Edited: March 26th 2021;
 
 #### By _**Garrett Brown**_
 
