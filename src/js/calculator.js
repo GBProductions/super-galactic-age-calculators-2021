@@ -37,9 +37,7 @@ export default class Calculator {
         return `On ${planet}, you are ${earthYear} years old.`;
     }
 
-    // lifeOver() {
-    //     if (this.planet === "Mercury") {
-    //         let timeOver = 
-    //     }
-    // }
+    lifeOver() {
+        
+    }
 }
