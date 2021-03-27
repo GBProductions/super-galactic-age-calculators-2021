@@ -3,7 +3,7 @@
 #### _Calculating Earth age on other planets in the solar system._ 
 #### _Original Publish Date: March 12th 2021_
 ##### _Last edited March 13th 2021_
-##### _Edited: March 26th 2021;
+##### _Edited: March 26th 2021_
 
 #### By _**Garrett Brown**_
 
