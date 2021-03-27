@@ -46,4 +46,9 @@ describe("Calculator", () => {
         let calculator = new Calculator (100, "Jupiter", 200);
         expect(calculator.lifeLeft()).toEqual(1186);
     });
+
+    test('should return user planet and age', () => {
+        let calculator = new Calculator (100, "Jupiter");
+        expect(calculator.thisAge()).toEqual();
+    });
 });
