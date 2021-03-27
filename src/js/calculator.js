@@ -41,13 +41,16 @@ export default class Calculator {
         if (this.planet === "Mercury") {
             let timeOver = Math.abs((this.avgEarthYear-this.earthYear) * 0.42);
             return timeOver
-        } else if (this.planet === "Venus") {
+        }  else if (this.planet === "Venus") {
             let timeOver = Math.abs((this.avgEarthYear - this.earthYear) * 0.62);
             return timeOver
-        } else if (this.planet === "Mars") {
+        }  else if (this.planet === "Mars") {
             let timeOver = Math.abs((this.avgEarthYear - this.earthYear) * 1.88);
             return timeOver
-        }  
+        }  else if (this.planet === "Jupiter") {
+            let timeOver = Math.abs((this.avgEarthYear - this.earthYear) * 11.86);
+            return timeOver
+        }   
 
     }
 }
