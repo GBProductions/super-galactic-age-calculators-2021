@@ -42,9 +42,12 @@ export default class Calculator {
             let timeOver = Math.abs((this.avgEarthYear-this.earthYear) * 0.42);
             return timeOver
         } else if (this.planet === "Venus") {
-            let timePast = Math.abs((this.avgEarthYear - this.earthYear) * 0.62)
-            return timePast
-        }
+            let timeOver = Math.abs((this.avgEarthYear - this.earthYear) * 0.62);
+            return timeOver
+        } else if (this.planet === "Mars") {
+            let timeOver = Math.abs((this.avgEarthYear - this.earthYear) * 1.88);
+            return timeOver
+        }  
 
     }
 }
