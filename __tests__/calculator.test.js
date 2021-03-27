@@ -51,4 +51,9 @@ describe("Calculator", () => {
         let calculator = new Calculator (100, "Earth");
         expect(calculator.thisAge("Earth", 100)).toEqual("On Earth, you are 100 years old.");
     });
+
+    test('should return years lived over life expectancy on Mercury', () => {
+        let calculator = new Calculator (200, "Mercury", 100);
+        expect(calculator.lifeLeft()).toEqual();
+    });
 });
