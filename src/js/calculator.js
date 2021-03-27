@@ -38,6 +38,10 @@ export default class Calculator {
     }
 
     lifeOver() {
-        
+        if (this.planet === "Mercury") {
+            let timeOver = Math.abs((this.avgEarthYear-this.earthYear) * 0.42);
+            return timeOver
+        }
+
     }
 }

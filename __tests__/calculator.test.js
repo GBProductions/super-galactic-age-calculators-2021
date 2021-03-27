@@ -54,6 +54,6 @@ describe("Calculator", () => {
 
     test('should return years lived over life expectancy on Mercury', () => {
         let calculator = new Calculator (200, "Mercury", 100);
-        expect(calculator.lifeOver()).toEqual(100);
+        expect(calculator.lifeOver()).toEqual(42);
     });
 });
