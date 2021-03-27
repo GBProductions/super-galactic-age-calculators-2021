@@ -32,4 +32,9 @@ export default class Calculator {
             return timePast
         }   
     }
+
+    thisAge() {
+
+
+    }
 }
