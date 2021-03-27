@@ -18,7 +18,9 @@ _This program will allow the user to take their age on Earth and convert it to t
 * _In terminal, type 'cd super-galactic-age-calculators-2021' and press enter._
 * _In terminal, type 'code .' and press enter to open project in VS Code._
 * _Type "npm install" in the CL to install dependencies._
-* _Type "npm run start" in the CL to open program in a web browser._
+* _Type "npm run build" in the CL to open program in a web browser._
+* _Type "npm run test" in the CL to run test coverage. Make sure it passes with 100% coverage._
+* _Type "npm run start" in the CL to open the program in your favorite browser._
 
 
 
