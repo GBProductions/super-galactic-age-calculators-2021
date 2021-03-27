@@ -33,7 +33,7 @@ export default class Calculator {
         }   
     }
 
-    thisAge() {
+    thisAge(planet, earthYear) {
 
 
     }

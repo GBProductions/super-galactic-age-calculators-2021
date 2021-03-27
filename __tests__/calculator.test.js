@@ -48,7 +48,7 @@ describe("Calculator", () => {
     });
 
     test('should return user planet and age', () => {
-        let calculator = new Calculator (100, "Jupiter");
-        expect(calculator.thisAge()).toEqual("On Earth, you are 100 years old.");
+        let calculator = new Calculator (100, "Earth");
+        expect(calculator.thisAge("Earth", 100)).toEqual("On Earth, you are 100 years old.");
     });
 });
