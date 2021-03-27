@@ -57,7 +57,7 @@ describe("Calculator", () => {
         expect(calculator.lifeOver()).toEqual(42);
     });
 
-    test('should return years lived over life expectancy on Mercury', () => {
+    test('should return years lived over life expectancy on Venus', () => {
         let calculator = new Calculator (200, "Venus", 100);
         expect(calculator.lifeOver()).toEqual(62);
     });
